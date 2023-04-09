@@ -1,0 +1,109 @@
+/*Estilos da página index.html*/
+body {
+    background-color: #CF240A;
+}
+
+.logo {
+    width: 3rem;
+}
+
+.home a {
+    text-decoration: none;
+    color: #FEC208;
+}
+
+.home a:hover {
+    color: #000;
+    transition: 0.3s;
+}
+
+.home ul {
+    display: flex;
+    gap: 3%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.home li {
+    display: flex;
+}
+
+nav {
+    font-weight: bold;
+}
+
+#titulo-principal {
+    text-align: center;
+    background-color: #FEC208;
+    color: red;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    font-weight: 500;
+}
+
+* {
+    font-family:'Times New Roman', Times, serif;
+}
+
+.banner {
+    text-align: center;
+    display: flex;
+    background-color: #FEC208;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    padding: 5%;
+    gap: 2%;
+}
+
+.textos {
+    color: rgb(243, 32, 4);
+    text-align: justify;
+}
+
+.imagem {
+    display: flex;
+    height: 50%;
+}
+
+.center {
+    text-align: center;
+    background-color: #FEC208;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    width: 80%;
+    align-items: center;
+}
+
+.video {
+    aspect-ratio: 16/9;
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 2%;
+}
+
+.footer {
+    padding: 1rem;
+    text-align: center;
+    color: #FEC208;
+    border-top: #000 2px solid;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    margin: 0 auto;
+}
+
+.botao {
+    text-align: center;
+    font-size: 12px;
+}
+
+.tamanho {
+    width: 5%;
+    margin: 0 auto;
+}
+
+/*Estilos da página faleconosco.html*/
+
+/*Estilos da página locais.html*/
